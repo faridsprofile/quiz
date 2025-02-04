@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* CSS for clock */
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 60px;
+    color: yellow;
+    background-color: grey;
+    margin-bottom: 50px;
+}
+
+/* CSS for task list */
+
+
+h2, button {
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 10px 0;
+    background-color:grey;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+input {
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    outline: none;
+}
+
+ul{
+    list-style: none;
+    font-size: 24px;
+}
